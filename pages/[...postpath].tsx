@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://www.effectivegatecpm.com/yny4m6a30?key=22983c1c2e872acfca5710c07b9ba2aa`
+					`https://dev-khabardaar.pantheonsite.io/` + encodeURI(path as string)
 				}`,
 			},
 		};
